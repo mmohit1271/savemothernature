@@ -1,0 +1,14 @@
+CREATE TABLE donations (
+    id SERIAL PRIMARY KEY,
+    donor_name VARCHAR(255),
+    amount NUMERIC(10, 2),
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE contacts (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    message TEXT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

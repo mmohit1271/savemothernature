@@ -1,0 +1,30 @@
+.home {
+    padding: 3rem;
+    text-align: center;
+    background-color: #e8f7e8;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.home .cta-button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home .cta-button:hover {
+    background-color: #45a049;
+}

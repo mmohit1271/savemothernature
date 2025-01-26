@@ -1,0 +1,26 @@
+.get-involved {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.get-involved h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.get-involved p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.get-involved ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.get-involved li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}

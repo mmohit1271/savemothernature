@@ -1,0 +1,26 @@
+.take-action {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.take-action h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.take-action p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.take-action ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.take-action li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}

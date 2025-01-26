@@ -1,0 +1,45 @@
+.donate {
+    padding: 2rem;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.donate h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.donate form {
+    display: inline-block;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donate label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.donate input {
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.donate button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.donate button:hover {
+    background-color: #45a049;
+}

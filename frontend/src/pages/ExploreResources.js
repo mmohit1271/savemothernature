@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExploreResources.css";
+import "../styles/ExploreResources.css";
 
 function ExploreResources() {
     return (

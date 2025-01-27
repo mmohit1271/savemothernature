@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import "./Donate.css";
+import "../styles/Donate.css";
 
 function Donate() {
     const [amount, setAmount] = useState("");

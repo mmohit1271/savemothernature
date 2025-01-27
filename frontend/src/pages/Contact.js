@@ -1,37 +1,62 @@
 import React, { useState } from "react";
-import "./Donate.css";
+import "../styles/Contact.css";
 
-function Donate() {
-    const [amount, setAmount] = useState("");
+function Contact() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+    });
 
-    const handleDonationChange = (e) => {
-        setAmount(e.target.value);
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleDonationSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle donation submission (send data to backend)
-        console.log(`Donation Amount: $${amount}`);
+        alert("Message sent successfully!");
     };
 
     return (
-        <div className="donate">
-            <h1>Donate to Save Mother Nature</h1>
-            <p>Your contribution helps us protect the environment and promote sustainable practices.</p>
-            <form onSubmit={handleDonationSubmit}>
-                <label>Enter Donation Amount:</label>
+        <div className="contact">
+            <h1>Contact Us</h1>
+	    <p>
+                Have questions or want to get involved? Reach out to us at:
+                <br />
+                Email: support@savemothernature.blog
+                <br />
+                Phone: +91 8130078363
+	       <br/>
+            </p>
+            <form onSubmit={handleSubmit}>
                 <input
-                    type="number"
-                    name="amount"
-                    value={amount}
-                    onChange={handleDonationChange}
-                    min="1"
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    value={formData.name}
+                    onChange={handleChange}
                     required
                 />
-                <button type="submit">Donate Now</button>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+                <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                ></textarea>
+                <button type="submit">Send</button>
             </form>
         </div>
     );
 }
 
-export default Donate;
+export default Contact;
+

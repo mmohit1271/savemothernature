@@ -1,5 +1,5 @@
 import React from "react";
-import "./GetInvolved.css";
+import "../styles/GetInvolved.css";
 
 function GetInvolved() {
     return (

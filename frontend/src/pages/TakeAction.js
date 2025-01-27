@@ -1,5 +1,5 @@
 import React from "react";
-import "./TakeAction.css";
+import "../styles/TakeAction.css";
 
 function TakeAction() {
     return (

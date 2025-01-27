@@ -1,19 +1,23 @@
-import React from "react";
-import "../styles/GetInvolved.css";
+import React from 'react';
+import '../styles/GetInvolved.css';
 
-function GetInvolved() {
+const GetInvolved = () => {
     return (
         <div className="get-involved">
             <h1>Get Involved</h1>
-            <p>Join our community of environmental activists and make a tangible impact in preserving nature.</p>
+            <p>There are many ways you can help save our planet. Here are some ways to get involved:</p>
             <ul>
-                <li>Volunteer with us</li>
-                <li>Participate in clean-up events</li>
-                <li>Spread awareness on social media</li>
-                <li>Donate to support our initiatives</li>
+                <li>Volunteer with local environmental organizations.</li>
+                <li>Join environmental protection campaigns and events.</li>
+                <li>Spread awareness about climate change and sustainability.</li>
+                <li>Reduce, reuse, and recycle in your daily life.</li>
             </ul>
+            <h2>Become a Climate Advocate</h2>
+            <p>Start by educating yourself and others about climate change. Together, we can make a big impact!</p>
+            <a href="/donate" className="btn">Donate Now</a>
         </div>
     );
-}
+};
 
 export default GetInvolved;
+

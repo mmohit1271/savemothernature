@@ -1,0 +1,13 @@
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/controller/ResourceController.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/repository/ResourceRepository.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/controller/ContactController.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/repository/DonationRepository.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/repository/ContactRepository.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/service/DonationService.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/service/ResourceService.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/controller/DonationController.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/model/Contact.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/service/ContactService.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/model/Resource.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/SaveMotherNatureApplication.java
+/home/ubuntu/savemothernature/backend/src/main/java/com/savemothernature/model/Donation.java

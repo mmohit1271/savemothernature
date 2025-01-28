@@ -1,0 +1,13 @@
+com/savemothernature/model/Donation.class
+com/savemothernature/repository/ResourceRepository.class
+com/savemothernature/repository/ContactRepository.class
+com/savemothernature/repository/DonationRepository.class
+com/savemothernature/controller/DonationController.class
+com/savemothernature/controller/ResourceController.class
+com/savemothernature/model/Contact.class
+com/savemothernature/SaveMotherNatureApplication.class
+com/savemothernature/service/ContactService.class
+com/savemothernature/service/DonationService.class
+com/savemothernature/service/ResourceService.class
+com/savemothernature/controller/ContactController.class
+com/savemothernature/model/Resource.class

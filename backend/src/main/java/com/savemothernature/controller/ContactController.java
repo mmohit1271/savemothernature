@@ -1,26 +1,23 @@
 package com.savemothernature.controller;
 
-import com.savemothernature.model.Contact;
-import com.savemothernature.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;  // Add this import
+import com.savemothernature.model.Contact;
+import com.savemothernature.repository.ContactRepository;
 
 @RestController
 @RequestMapping("/api/contacts")
+@CrossOrigin(origins = "http://43.204.47.71:3000")  // Adjust based on your frontend's URL
 public class ContactController {
 
     @Autowired
-    private ContactService contactService;
+    private ContactRepository contactRepository;
 
     @PostMapping
-    public Contact createContact(@RequestBody Contact contact) {
-        return contactService.saveContact(contact);
-    }
-
-    @GetMapping
-    public List<Contact> getAllContacts() {
-        return contactService.getAllContacts();
+    public ResponseEntity<Contact> saveContact(@RequestBody Contact contact) {
+        Contact savedContact = contactRepository.save(contact);
+        return ResponseEntity.ok(savedContact);
     }
 }
+
